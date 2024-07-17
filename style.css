@@ -1,0 +1,80 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #fffbcc;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/0/0e/Looney_Tunes_title_card.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff0000;
+    text-shadow: 2px 2px #000;
+}
+
+.calculator label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+#results {
+    display: none;
+    margin-top: 20px;
+}
+
+#results h2 {
+    font-size: 2em;
+    color: #ff0000;
+    text-shadow: 1px 1px #000;
+}
+
+#disksList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#disksList li {
+    font-size: 1.5em;
+}
+
+#remainder {
+    font-size: 1.5em;
+    color: #ff0000;
+}

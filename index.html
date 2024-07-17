@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolucion del fitness cientifico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Goofy ass calculator</h1>
+        <div class="calculator">
+            <label for="totalweight">Enter your max weight:</label>
+            <input type="number" id="totalweight">
+            
+            <label for="intensity">Enter your desired intensity training (1-100):</label>
+            <input type="number" id="intensity">
+            
+            <button onclick="calculateDisks()">Calculate</button>
+            
+            <div id="results">
+                <h2>Con todo respeto: </h2>
+                <p>Disks (per side):</p>
+                <ul id="disksList"></ul>
+                <p id="remainder"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
